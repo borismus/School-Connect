@@ -3,11 +3,16 @@
 <head> 
   <title>Kindroid</title> 
   <link rel="stylesheet" href="external/jquery.mobile-1.0a2.min.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="plugins/jquery.mobile.listview.accordion.css" />
+  <link rel="stylesheet" href="css/nick.css" />
+  <link rel="stylesheet" href="css/rebeca.css" />
+  <link rel="stylesheet" href="css/marco.css" />
+  <link rel="stylesheet" href="css/boris.css" />
+  
   <script src="external/jquery.min.js"></script>
   <script src="external/jquery.mobile-1.0a2.min.js"></script>
-  <script src="jquery.mobile.listview.filter.category.js"></script>
-  <script src="scriptcache.js"></script>
+  <script src="plugins/jquery.mobile.listview.accordion.js"></script>
+  <script src="plugins/scriptcache.js"></script>
 </head> 
 <body> 
 
@@ -15,14 +20,27 @@
 
     <div data-role="header">
       <h1>Kindroid</h1>
+      <div class="pt-header-name">Paulo</div>
+      <img src="" class="pt-header-image" />
     </div><!-- /header -->
 
     <div data-role="content">
-      <p>This is the application's main screen. From here you can launch any of the four components of the main application.</p>
-      <div><a href="updates.html">Updates</a></div>
-      <div><a href="events.html">Events</a></div>
-      <div><a href="recommendations.html">Recommendations</a></div>
-      <div><a href="discussions.html">Discussions</a></div>
+      <div class="pt-home-header">
+        <img src="images/paulo.png" class="pt-home-image"/>
+        <div class="pt-home-name">Paulo</div>
+        <div class="pt-home-location">at Piano Class</div>
+        <div class="pt-home-blurb">Events: tomorrow is Jim's Birthday</div>
+      </div>
+      
+      <div class="pt-home-row">
+        <div class="pt-home-left"><a href="report.html">Child Report</a></div>
+        <div class="pt-home-right"><a href="events.html">School Events</a></div>
+      </div>
+      <div class="pt-home-row">
+        <div class="pt-home-left"><a href="recommendations.html">Recommendations</a></div>
+        <div class="pt-home-right"><a href="discussions.html">Discussions</a></div>
+      </div>
+      
     </div><!-- /content -->
 
     <div data-role="footer">

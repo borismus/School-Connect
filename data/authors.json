@@ -1,5 +1,5 @@
 {
-  "error": 0,
+  "error": false,
   "data": [
   {
     "id": 0,
@@ -29,6 +29,11 @@
   {
     "id": 5,
     "name": "Brett Campbell",
+    "image": "images/author/campbell.png"
+  },
+  {
+    "id": 6,
+    "name": "Gabriela",
     "image": "images/author/campbell.png"
   }
   ]

@@ -1,0 +1,4 @@
+.ui-li-accordion, .ui-li-accordion-body {display: none;}
+.ui-li-accordion-open {background: darkgray;}
+.ui-li-accordion-open .ui-li-accordion-body {display: block;}
+.ui-li-accordion-body {position: relative;}
