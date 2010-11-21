@@ -8,17 +8,54 @@
   <div data-role="page">
 
     <div data-role="header">
-      <h1>Discussions</h1>
+      <h1>Post Discussion</h1>
     </div><!-- /header -->
 
     <div data-role="content">
-      <ul data-role="listview" data-theme="c">
-        <li>
-          <img src="images/person.png" /> 
-          <h3><a href="index.html">Jim's 10th birthday</a></h3> 
-          <p>Started by Kelly B. – 4 comments</p>
-        </li>
-      </ul>
+
+      <div data-role="fieldcontain">	
+
+        <select name="categorySelect" id="categorySelect">
+          <option value="standard">Choose a Category</option>
+          <option value="justForFun">Just for Fun</option>
+          <option value="math">Math</option>
+          <option value="reading">Reading</option>
+          <option value="science">Science</option>
+          <option value="socialStudies">Social Studies</option>
+          <option value="writing">Writing</option>
+        </select>
+      </div>
+
+      <div data-role="fieldcontain">
+        <fieldset class="ui-grid-a">
+          <div class="ui-block-a">
+            <input type="text" name="titleInput" id="titleInput" value="Title"/>
+          </div>
+          <div class="ui-block-b">
+            <!-- change this icon to camera icon-->
+            <a href="index.html" data-role="button" data-icon="info" data-iconpos="notext"></a>
+          </div>
+        </fieldset>
+        <textarea cols="40" rows="8" name="discussionText" id="discussionText"> Discussion Title</textarea>
+      </div>
+
+      <div data-role="fieldcontain">
+        <fieldset data-role="controlgroup" id="controlGroup">
+          <input type="checkbox" name="checkBox" id="checkBox" class="custom"
+          <label for="checkBox">Private</label>
+          <p class="checkBoxText" id="checkBoxText">keeping this discussion private means that you can select who sees and discusses</p>
+        </fieldset>
+      </div>
+
+      <fieldset class="ui-grid-a">
+        <div class="ui-block-a">
+          <button type="submit" data-theme="c">Post</button>
+        </div>
+
+        <div class="ui-block-b">
+          <button type="submit" data-theme="c">Cancel</button>
+        </div>	   
+      </fieldset>
     </div><!-- /content -->
 
     <div data-role="footer">

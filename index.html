@@ -9,10 +9,18 @@
   <link rel="stylesheet" href="css/marco.css" />
   <link rel="stylesheet" href="css/boris.css" />
   
+  <!-- Importing Droid Font for the CSS -Nick -->
+  
+  <!-- Plain Text and Bold -->	    
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans&subset=latin' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:bold&subset=latin' rel='stylesheet' type='text/css'>
+
   <script src="external/jquery.min.js"></script>
   <script src="external/jquery.mobile-1.0a2.min.js"></script>
   <script src="plugins/jquery.mobile.listview.accordion.js"></script>
-  <script src="plugins/scriptcache.js"></script>
+  <script src="plugins/jquery.mobile.listview.category.js"></script>
+  <script src="plugins/scriptcache.js"></script>  
+  
 </head> 
 <body> 
 
@@ -20,17 +28,17 @@
 
     <div data-role="header">
       <h1>Kindroid</h1>
-      <div class="pt-header-name">Paulo</div>
-      <img src="" class="pt-header-image" />
+      <!-- <div class="pt-header-name">Paulo</div>
+      <img src="" class="pt-header-image" /> -->
     </div><!-- /header -->
 
     <div data-role="content">
-      <div class="pt-home-header">
+      <!-- <div class="pt-home-header">
         <img src="images/paulo.png" class="pt-home-image"/>
         <div class="pt-home-name">Paulo</div>
         <div class="pt-home-location">at Piano Class</div>
         <div class="pt-home-blurb">Events: tomorrow is Jim's Birthday</div>
-      </div>
+      </div> -->
       
       <div class="pt-home-row">
         <div class="pt-home-left"><a href="report.html">Child Report</a></div>
@@ -49,7 +57,31 @@
   </div><!-- /page -->
 
 <script>
+// Initialize globals
+var authors = {},
+  discussions = [], events = [], recommendations = [], reports = [];
+// Initialize scriptCache
 var scriptCache = new ScriptCache();
+
+// Load all authors
+$.getJSON('data/authors.json', function(data) {
+  var authorList = data.data;
+  for (var i = 0; i < authorList.length; i++) {
+    var author = authorList[i];
+    authors[author.id] = author;
+  }
+});
+
+// Load all discussions
+$.getJSON('data/discussions.json', function(data) {
+  // sort the data in recent first
+  data.data.sort(function(a, b) {
+    return new Date(b.posted) - new Date(a.posted);
+  });
+  discussions = data.data;
+});
+
+
 </script>
 </body>
 </html>

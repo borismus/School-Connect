@@ -1,0 +1,17 @@
+/* Custom enhancements to jQuery Mobile 
+ *
+ * We use the pt- prefix to avoid collisions with other CSS styles.
+ */
+
+/* Discussion item */
+#container{
+	padding:0;
+	width:100%;
+}
+
+.pt-discuss-header {
+	padding:10px;
+	width:100%;
+	background-image:-moz-linear-gradient(top,#939598,#6D6E71);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#939598),color-stop(1,#6D6E71));
+}

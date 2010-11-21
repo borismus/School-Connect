@@ -11,6 +11,4 @@
 /* Updates screen */
 .pt-report-grade {position: absolute; left: 1px; width: 80px; height: 80px; font-size: 2em; text-align: center; top: 20px;}
 
-/* Accordion widget */
-.ui-li-accordion-body img {float: left;}
-.ui-li-accordion-body { height: 160px;}
+/* Accordion widget - moved to nick.css */

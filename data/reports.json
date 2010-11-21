@@ -9,8 +9,8 @@
 	"title": "The Sunflowers",
 	"description": " Find a picture of Sunflowers on the internet and draw it. Use pencil.",
 	"subject": "Art",
-	"grade": "(B+)",
-	"average": "(B)",
+	"grade": "B+",
+	"average": "B",
 	"authorId": "0"
 	},
 
@@ -20,8 +20,8 @@
 	"title": "Your Room",
 	"description": "Draw a picture of your room at home. Use pencil.",
 	"subject": "Art",
-	"grade": "(B-)",
-	"average": "(B)",
+	"grade": "B-",
+	"average": "B",
 	"authorId": "0"
 	},
 
@@ -31,8 +31,8 @@
 	"title": "Self Portrait",
 	"description": "Draw a picture of yourself from a photograph. Use pencil",
 	"subject": "Art",
-	"grade": "(B)",
-	"average": "(B)",
+	"grade": "B",
+	"average": "B",
 	"authorId": "0"
 	},
 
@@ -42,8 +42,8 @@
 	"title": "Pastels II",
 	"description": "Write 1 page about the difference between using pastels and pencil.",
 	"subject": "Art",
-	"grade": "(B)",
-	"average": "(B)",
+	"grade": "B",
+	"average": "B",
 	"authorId": "0"
 	},
 
@@ -53,8 +53,8 @@
 	"title": "Pastels",
 	"description": "Go to the art store and buy some pastels, at least 3 colors.",
 	"subject": "Art",
-	"grade": "(A-)",
-	"average": "(B)",
+	"grade": "A-",
+	"average": "B",
 	"authorId": "0"
 	},
 
@@ -64,8 +64,8 @@
 	"title": "Exercise 2.14",
 	"description": "From Everyday Mathematics, p 134 - 135.",
 	"subject": "Math",
-	"grade": "(A-)",
-	"average": "(A)",
+	"grade": "A-",
+	"average": "A",
 	"authorId": "0"
 	},
 
@@ -75,8 +75,8 @@
 	"title": "Exercise 2.13",
 	"description": "From Everyday Mathematics, p 130 - 132.",
 	"subject": "Math",
-	"grade": "(A+)",
-	"average": "(A)",
+	"grade": "A+",
+	"average": "A",
 	"authorId": "0"
 	},
 
@@ -86,8 +86,8 @@
 	"title": "Exercise 2.11",
 	"description": "From Everyday Mathematics, p 124 - 127.",
 	"subject": "Math",
-	"grade": "(A)",
-	"average": "(A)",
+	"grade": "A",
+	"average": "A",
 	"authorId": "0"
 	},
 
@@ -97,8 +97,8 @@
 	"title": "Exercise 2.10",
 	"description": "From Everyday Mathematics, p 120 - 123.",
 	"subject": "Math",
-	"grade": "(B+)",
-	"average": "(A)",
+	"grade": "B+",
+	"average": "A",
 	"authorId": "0"
 	},
 
@@ -108,8 +108,8 @@
 	"title": "Tax",
 	"description": "Find an article in a newspaper about tax. Print it out and bring it to school.",
 	"subject": "Math",
-	"grade": "(A+)",
-	"average": "(A)",
+	"grade": "A+",
+	"average": "A",
 	"authorId": "0"
 	},
 
@@ -120,8 +120,8 @@
 	"title": "Treasure Island, Chapter 12",
 	"description": "Read Chapter 12 and get you parent or guardian to sign your reading book.",
 	"subject": "Reading",
-	"grade": "(A-)",
-	"average": "(A-)",
+	"grade": "A-",
+	"average": "A-",
 	"authorId": "0"
 	},
 
@@ -131,8 +131,8 @@
 	"title": "Treasure Island, Chapter 11",
 	"description": "Read Chapter 11 and get you parent or guardian to sign your reading book.",
 	"subject": "Reading",
-	"grade": "(B+)",
-	"average": "(A-)",
+	"grade": "B+",
+	"average": "A-",
 	"authorId": "0"
 	},
 
@@ -142,8 +142,8 @@
 	"title": "Treasure Island, Chapter 10",
 	"description": "Read Chapter 10 and get you parent or guardian to sign your reading book.",
 	"subject": "Reading",
-	"grade": "(A)",
-	"average": "(A-)",
+	"grade": "A",
+	"average": "A-",
 	"authorId": "0"
 	},
 
@@ -153,8 +153,8 @@
 	"title": "What is a pirate?",
 	"description": "Do some research on pirates. Do pirates always sail on ships?",
 	"subject": "Reading",
-	"grade": "(B+)",
-	"average": "(A-)",
+	"grade": "B+",
+	"average": "A-",
 	"authorId": "0"
 	},
 
@@ -164,8 +164,8 @@
 	"title": "Treasure Island, Chapter 9",
 	"description": "Read Chapter 9 and get you parent or guardian to sign your reading book.",
 	"subject": "Reading",
-	"grade": "(A-)",
-	"average": "(A-)",
+	"grade": "A-",
+	"average": "A-",
 	"authorId": "0"
 	},
 
@@ -175,8 +175,8 @@
 	"title": "Atlantic Ocean",
 	"description": " Find five pictures of fish that swim in the Atlantic Ocean. Write about what kind of food the fish eats.",
 	"subject": "Science",
-	"grade": "(A-)",
-	"average": "(A-)",
+	"grade": "A-",
+	"average": "A-",
 	"authorId": "0"
 	},
 
@@ -186,8 +186,8 @@
 	"title": "Oxygen in the Ocean",
 	"description": "How can fish breath in the water but we can't? Write one paragraph about gills.",
 	"subject": "Science",
-	"grade": "(A+)",
-	"average": "(A-)",
+	"grade": "A+",
+	"average": "A-",
 	"authorId": "0"
 	},
 
@@ -197,8 +197,8 @@
 	"title": "The Red Sea",
 	"description": "Coral, is it a plant or an animal? Do some research online, prepare a 5 minute talk.",
 	"subject": "Science",
-	"grade": "(A)",
-	"average": "(A)",
+	"grade": "A",
+	"average": "A",
 	"authorId": "0"
 	},
 
@@ -208,8 +208,8 @@
 	"title": "Salt Water",
 	"description": "Find out what percent of water on Earth is salt water and what percent is fresh water.",
 	"subject": "Science",
-	"grade": "(B+)",
-	"average": "(A-)",
+	"grade": "B+",
+	"average": "A-",
 	"authorId": "0"
 	},
 
@@ -219,8 +219,8 @@
 	"title": "The Arctic Ocean",
 	"description": "Find five mammals that live in the arctic ocean. Which is your favorite and why?",
 	"subject": "Science",
-	"grade": "(A)",
-	"average": "(A-)",
+	"grade": "A",
+	"average": "A-",
 	"authorId": "0"
 	},
 		
@@ -230,8 +230,8 @@
 	"title": "Civil Rights Speeches III",
 	"description": "Watch the speech, I have a dream by Martin Luther King.",
 	"subject": "Social Science",
-	"grade": "(A)",
-	"average": "(A)",
+	"grade": "A",
+	"average": "A",
 	"authorId": "0"
 	},
 
@@ -241,8 +241,8 @@
 	"title": "Civil Rights Speeches II",
 	"description": "Watch the speech, Inaugural Address of John F. Kennedy",
 	"subject": "Social Science",
-	"grade": "(A)",
-	"average": "(A)",
+	"grade": "A",
+	"average": "A",
 	"authorId": "0"
 	},
 
@@ -252,8 +252,8 @@
 	"title": "Civil Rights Speeches I",
 	"description": "Listen to the speech, Inaugural Address of Nelson Mandela",
 	"subject": "Social Science",
-	"grade": "(A)",
-	"average": "(A)",
+	"grade": "A",
+	"average": "A",
 	"authorId": "0"
 	},
 
@@ -263,8 +263,8 @@
 	"title": "What are rights?",
 	"description": "Make a list of ten human rights that are important to you.",
 	"subject": "Social Science",
-	"grade": "(A)",
-	"average": "(A)",
+	"grade": "A",
+	"average": "A",
 	"authorId": "0"
 	},
 
@@ -274,8 +274,8 @@
 	"title": "Childs Rights",
 	"description": "Do children have different rights to adults? Think of three things that are different and explain why.",
 	"subject": "Social Science",
-	"grade": "(A)",
-	"average": "(B+)",
+	"grade": "A",
+	"average": "B+",
 	"authorId": "0"
 	},
 	
@@ -285,8 +285,8 @@
 	"title": "Weekend Report",
 	"description": "Write about what you did at the weekend, in the style of a news report.",
 	"subject": "Writing",
-	"grade": "(C+)",
-	"average": "(B)",
+	"grade": "C+",
+	"average": "B",
 	"authorId": "0"
 	},
 
@@ -296,8 +296,8 @@
 	"title": "Someone in my family",
 	"description": "Write one page about someone in your family that you look up to.",
 	"subject": "Writing",
-	"grade": "(A-)",
-	"average": "(B)",
+	"grade": "A-",
+	"average": "B",
 	"authorId": "0"
 	},
 
@@ -307,8 +307,8 @@
 	"title": "My favorite toy",
 	"description": "Write one page about your favorite toy. Why do you like it so much?",
 	"subject": "Writing",
-	"grade": "(B)",
-	"average": "(B)",
+	"grade": "B",
+	"average": "B",
 	"authorId": "0"
 	},
 
@@ -318,8 +318,8 @@
 	"title": "Story Swap II",
 	"description": "Swap your story with the person you sit next to. Write an ending to their story.",
 	"subject": "Writing",
-	"grade": "(B+)",
-	"average": "(B)",
+	"grade": "B+",
+	"average": "B",
 	"authorId": "0"
 	},
 
@@ -329,44 +329,44 @@
 	"title": "Story Swap I",
 	"description": "Write the beginning of a story. Make it half a page long.",
 	"subject": "Writing",
-	"grade": "(B-)",
-	"average": "(B)",
+	"grade": "B-",
+	"average": "B",
 	"authorId": "0"
 	},
 
 	{
 	"type": "attendance",
-	"posted": "Nov 10, 2010 10:00:00",
-	"missed": "Nov 9, 2010 10:00:00",
+	"posted": "Dec 6, 2010 10:00:00",
+	"missed": "Dec 3, 2010 10:00:00"
 	},
 
 	{
 	"type": "attendance",
 	"posted": "Oct 25, 2010 10:00:00",
-	"missed": "Oct 24, 2010 10:00:00",
+	"missed": "Oct 24, 2010 10:00:00"
 	},
 
 	{
 	"type": "attendance",
 	"posted": "May 12, 2010 10:00:00",
-	"missed": "May 11, 2010 10:00:00",
+	"missed": "May 11, 2010 10:00:00"
 	},
 
 	{
 	"type": "attendance",
 	"posted": "Feb 14, 2010 10:00:00",
-	"missed": "Feb 13, 2010 10:00:00",
+	"missed": "Feb 13, 2010 10:00:00"
 	},
 
 	{
 	"type": "attendance",
 	"posted": "Jan 26, 2010 10:00:00",
-	"missed": "Jan 25, 2010 10:00:00",
+	"missed": "Jan 25, 2010 10:00:00"
 	},
 
 	{
 	"type": "behavior",
-	"posted": "Nov 24, 2010 10:00:00",
+	"posted": "Dec 7, 2010 10:00:00",
 	"title": "Great Behavior",
 	"description": "Paulo was the best student in class this week, his behavior was very good and he did very good in his assignments.",
 	"behavior_type": "True",
@@ -375,7 +375,7 @@
 
 	{
 	"type": "behavior",
-	"posted": "Nov 10, 2010 10:00:00",
+	"posted": "Nov 15, 2010 10:00:00",
 	"title": "Got in a fight with Jim",
 	"description": "During lunch time Paulo and Jim got in a fight about the football match.",
 	"behavior_type": "False",
@@ -407,7 +407,7 @@
 	"description": "Paulo made friends with the new boy in class. He invited the new boy to play football together.",
 	"behavior_type": "True",
 	"authorId": "0"
-	},
+	}
 
 
 	]

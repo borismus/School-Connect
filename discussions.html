@@ -12,12 +12,17 @@
     </div><!-- /header -->
 
     <div data-role="content">
-      <ul data-role="listview" data-theme="c">
-        <li>
-          <img src="images/person.png" /> 
-          <h3><a href="discussions-item.html">Jim's 10th birthday</a></h3> 
-          <p>Started by Kelly B. – 4 comments</p>
+      <ul data-role="listview" data-theme="c" id="discussions">
+        <li data-role="category-filter">
+          <select>
+            <option value="">All Discussions</option>
+            <option value="event">Events</option>
+            <option value="recommendation">Recommendations</option>
+            <option value="misc">Miscellaneous</option>
+          </select>
+          <a href="discussions-post.html"></a>
         </li>
+        
       </ul>
     </div><!-- /content -->
 

@@ -6,7 +6,7 @@
     "posted": "December 8, 2010 11:13:00",
     "title": "Jim's 10th Birthday",
     "body": "Come to our place at 3939 Farley Rd on Saturday.",
-    "category": "Event",
+    "type": "event",
     "authorId": 3,
     "comments": [
       {
@@ -31,7 +31,7 @@
     "posted": "December 5, 2010 9:51:00",
     "title": "Oceans Quiz",
     "body": "How did your child find the quiz? Paulo seemed OK with it.",
-    "category": "Event",
+    "type": "event",
     "authorId": 6,
     "comments": [
       {
@@ -51,7 +51,7 @@
     "posted": "December 9, 2010 10:30:00",
     "title": "Multiplication Test",
     "body": "Paulo's pretty worried about this one.",
-    "category": "Event",
+    "type": "event",
     "authorId": 6,
     "comments": [
       {
@@ -66,7 +66,7 @@
     "posted": "December 3, 2010 10:30:00",
     "title": "Indonesia hit by Tsunami",
     "body": "Thousands die in disaster.",
-    "category": "Other",
+    "type": "misc",
     "authorId": 1,
     "comments": []
   },
@@ -75,7 +75,7 @@
     "posted": "November 28, 2010 16:30:00",
     "title": "Tips for dealing with bullies",
     "body": "Bullying is a big problem that affects lots of kids. Three-quarters of all kids say they have been bullied or teased. Being bullied can make kids feel really bad. The stress of dealing with bullies can make kids feel sick.",
-    "category": "Recommendation",
+    "type": "recommendation",
     "authorId": 2,
     "comments": []
   },
@@ -84,7 +84,7 @@
     "posted": "October 5, 2010 9:30:00",
     "title": "Hannah Montana",
     "body": "Follows the double life of a high school student who is also a pop singer.",
-    "category": "Recommendation",
+    "type": "recommendation",
     "authorId": 5,
     "comments": []
   }
