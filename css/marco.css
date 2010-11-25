@@ -1,0 +1,160 @@
+/* home header
+----------------------------------*/
+#pt-header {
+	background-color:#F00;
+}
+
+.pt-header-name {
+	float:right;
+	padding-top:15px;
+}
+
+.pt-header-image {
+	text-align:right;
+	padding:5px 5px 5px 20px;
+	float:right;
+	width:45px;
+	height:45px;
+}
+
+
+/* home second header
+----------------------------------*/
+.pt-home-header-outside{
+	border-top: 1px solid #000;
+}
+
+.pti-home-2ndheader{
+	margin:auto;
+	padding:10px;
+	height: 80px;
+	width: 100%;
+	background-image:-moz-linear-gradient(top,#111,#3c3c3c);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#111),color-stop(1,#3c3c3c));
+	font-weight:bold;
+	color:#FFF;
+	text-shadow:0 -1px 1px #000;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #000;
+}
+
+.pti-home-2ndheader img{
+width: 70px;
+height: 70px;
+padding:5px;
+float: left;
+}
+
+.pt-home-welcometxt {
+	margin:15px 10px 5px 93px;
+	color: white;
+}
+
+.pti-home-2ndheader-usernametxt{
+	font-size: 14 px;
+	font-weight: bold;
+}
+
+.pti-home-2ndheader-locationtxt{
+font-size: 12px;
+}
+
+.pti-home-2ndheader-eventtxt{
+font-size: 11px;
+color:#CCC;
+
+}
+
+/* home content components
+----------------------------------*/
+
+.pt-badge{
+font-size: 10px;
+text-align:center;
+width: 30px;
+position:absolute;
+margin:auto;
+top:5px;
+right:10px;
+padding: 6px 0px 6px 0px;
+background-color:#CCC;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-radius: 15px;
+-moz-box-shadow: 1px 1px 2px #000;
+-webkit-box-shadow: 1px 1px 2px #000;
+box-shadow: 1px 1px 2px #000;
+}
+
+.pt-img-badge {
+	top:20px;
+	position:relative;
+	margin:auto;
+	width:120px;
+}
+
+.pt-home-content {
+	padding:0px;
+	background-image:-moz-linear-gradient(top,#fff,#CCC);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(1.5,#CCC));
+	
+}
+
+.pt-home-content a:link {
+	text-decoration:none;
+	color:#333;
+}
+
+#pt-home-fieldset {
+	text-align:center;
+	margin:10px;
+	vertical-align:middle;
+	background-image:url(../images/home-cross-divisor.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+a#pt-icon-rep {
+	display:block;
+	width:98px;
+	height:98px;
+	background-image:url(../images/home-rep.png);
+}
+
+
+a#pt-icon-rep:hover, #pt-icon-rep a:active {
+	background-image:url(../images/home-rep-selected.png);
+}
+
+a#pt-icon-evt {
+	display:block;
+	width:98px;
+	height:98px;
+	background-image:url(../images/home-ev.png);
+}
+
+a#pt-icon-evt:hover, #pt-icon-evt a:active {
+	background-image:url(../images/home-ev-selected.png);
+}
+
+a#pt-icon-rec, #pt-icon-rec:visited {
+	display:block;
+	width:98px;
+	height:98px;
+	background-image:url(../images/home-rec.png);
+}
+
+a#pt-icon-rec:hover, #pt-icon-rec a:active {
+	background-image:url(../images/home-rec-selected.png);
+}
+
+a#pt-icon-dis {
+	display:block;
+	width:98px;
+	height:98px;
+	background-image:url(../images/home-disc.png);
+}
+
+a#pt-icon-dis:hover, #pt-icon-dis:active {
+	background-image:url(../images/home-disc-selected.png);
+}

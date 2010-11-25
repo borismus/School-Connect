@@ -85,8 +85,71 @@
     "title": "Hannah Montana",
     "body": "Follows the double life of a high school student who is also a pop singer.",
     "type": "recommendation",
+    "authorId": 6,
+    "comments": []
+  },
+  {
+    "id": 6,
+    "posted": "November 20, 2010 9:30:00",
+    "title": "Last day of school party",
+    "body": "I'm so excited to meet all of you.",
+    "type": "event",
+    "authorId": 1,
+    "comments": [
+      {
+        "authorId": 3,
+        "comment": "Looking forward to it! I'll bring ice cream.",
+        "posted": "November 21, 2010 15:13:00"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "posted": "November 22, 2010 9:30:00",
+    "title": "Science assignment due",
+    "body": "Jimbo won't be able to finish it on time. Is the teacher going to dock marks?",
+    "type": "event",
     "authorId": 5,
     "comments": []
+  },
+  {
+    "id": 8,
+    "posted": "November 15, 2010 9:30:00",
+    "title": "Sports day event at school",
+    "body": "Do the kids need to bring gym strip?",
+    "type": "event",
+    "authorId": 2,
+    "comments": [
+      {
+        "authorId": 1,
+        "comment": "Yes, please do. They will be running around on the field. Also, bring a jacket since it might rain",
+        "posted": "November 16, 2010 15:13:00"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "posted": "November 22, 2010 9:30:00",
+    "title": "Ocean Life - PBS Kids",
+    "body": "Great show!",
+    "type": "recommendation",
+    "authorId": 2,
+    "comments": []
+  },
+  {
+    "id": 10,
+    "posted": "December 3, 2010 19:30:00",
+    "title": "Lisbon Natural Museum",
+    "body": "Did you see the giant blue whale skeleton?",
+    "type": "recommendation",
+    "authorId": 1,
+    "comments": [
+      {
+        "authorId": 4,
+        "comment": "It's the biggest whale skeleton in Portugal!",
+        "posted": "December 4, 2010 5:13:00"
+      }
+    ]
   }
   ]
 }

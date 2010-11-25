@@ -8,40 +8,30 @@
   <div data-role="page">
 
     <div data-role="header">
-      <h1>Discussions - Item</h1>
+      <h1 class="pt-title">Discussions - Item</h1>
     </div><!-- /header -->
 
-    <div data-role="content" id="container">
-      <div class="pt-discuss-header">
-        <img src="images/author/santos.png" />
-        <div class="pt-discuss-author">Brett Campbell</div>
-        <div class="pt-discuss-date">yesterday</div>
+    <div data-role="content" id="pt-discuss-content">
+      <div class="pt-author-header">
+    		<img class="pt-authorpic pt-author-image" src="images/author/campbell.png"/>
+        <div class="pt-author">Brett Campbell</div>
+        <div class="pt-date">yesterday</div>
       </div>
       <div class="pt-discuss-post">
         <div class="pt-discuss-title">Ocean Quiz</div>
         <div class="pt-discuss-body">How did Paulo do?</div>
       </div>
-      <ul data-role="listview" data-theme="b">
-        <li>
-          <img src="images/person.png" /> 
-          <h3><a href="index.html">Bernard Holtz</a></h3> 
-          <p>Jennie came home crying after this quiz.</p>
-        </li>
-        <li>
-          <img src="images/person.png" /> 
-          <h3><a href="index.html">Ms. Santos:</a></h3> 
-          <p>Oh no. We'll have a talk.</p>
-        </li>
+      <div id="divisor" class="pt-discuss-comment-header"></div>
+      <ul data-role="listview" data-theme="a" id="pt-discuss-listview">
       </ul>
+      <form action="#" method="get" class="pt-discuss-comment">
       <div data-role="fieldcontain">
-        <input type="text" name="comment" id="comment" value="Comment"/>
+        <textarea name="comment"></textarea>
+        <button type="submit" data-theme="a">Comment</button>
       </div>
+      </form>
       
     </div><!-- /content -->
-
-    <div data-role="footer">
-      <h4>Page Footer</h4>
-    </div><!-- /header -->
   </div><!-- /page -->
 
 </body>

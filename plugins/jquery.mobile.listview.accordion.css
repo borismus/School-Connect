@@ -1,1 +1,6 @@
-.ui-li-accordion {display: none; position: relative;}
+.ui-li-accordion { 
+	height:171px;
+	background-color: #000000;
+	display: none; 
+	position: relative;
+}

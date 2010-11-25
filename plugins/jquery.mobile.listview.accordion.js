@@ -16,7 +16,7 @@ $( "[data-role='listview']" ).live( "listviewcreate", function() {
   		//   <div class="ui-li-accordion">...contents of this</div>
   		// </li>
   		// If we find an accordion element, make the li action be to open the accordion element
-  		console.log('accordion found ' + accordion);
+      // console.log('accordion found ' + accordion);
   		// Get the li 
   		var $accordion = $(accordion);
   		$li = $accordion.closest('li');

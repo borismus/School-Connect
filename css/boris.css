@@ -8,7 +8,6 @@
 .pt-home-right {float: right;}
 .pt-home-row {clear: both;}
 
-/* Updates screen */
-.pt-report-grade {position: absolute; left: 1px; width: 80px; height: 80px; font-size: 2em; text-align: center; top: 20px;}
 
-/* Accordion widget - moved to nick.css */
+
+.pt-discuss-comment-header {display: none;}

@@ -16,6 +16,7 @@
     });
   };
   
+  
   var redraw = function() {
     // keep track of last date
     var lastDate = null;
@@ -24,13 +25,45 @@
       var date = new Date(item.when);
       // if date changed, output a header
       if (date - lastDate !== 0) {
-        $('<li data-role="list-divider">' + date.toDateString() + '</li>').appendTo('#events');
+        //$('<li data-role=".pt-list-divider">' + date.toDateString() + '</li>').appendTo('#events');
+        
+        $('<li data-role=".pt-nav-date">' + date.toDateString() + '</li>').appendTo('#events');
       }
       $('<li data-category="' + item.type + '">' +
-          '<h3><a href=""></a>' + item.title + '</h3>' +
+          '<h3 class=".pt-report-title"><a href=""></a>' + item.title + '</h3>' +
           '<div class="ui-li-accordion">' + 
-            '<div>When: ' + date.toDateString() + '</div>'+
-            '<div>Where: ' + item.where + '</div>' +
+            '<div class="pt-report-postedby">In Discussion: ' + item.discussionId + '</div>' +
+            '<div class="pt-event-when">When: ' + item.time + '</div>'+
+            '<div class="pt-event-where">Where: ' + item.where + '</div>' +
+                	'<div class="pt-nav">' + // Style of bottom banner
+						
+						'<button class="pt-button-4view">' +
+						'<img src="images/icon-sync.png" />'   +
+						//'<span class="icon1" > </span>' +
+						'Calendar Sync' +
+						'</button>' +						
+						
+						'<button class="pt-button-4view">' + 
+						'<img src="images/icon-email.png"/>' +
+						//'<span class="icon2"> </span>' +
+						'Email' +	
+						'</button>' +
+						
+						'<button class="pt-button-4view">' +
+						'<img src="images/icon-sms.png" />'   +
+						//'<span class="icon1" > </span>' +
+						'SMS' +
+						'</button>' +						
+						
+						'<button class="pt-button-4view">' + 
+						'<img src="images/icon-s.png"/>' +
+						//'<span class="icon2"> </span>' +
+						'Discuss' +	
+						'</button>' +
+
+
+                  		
+                	'</div>' +
           '</div>' +
       '</li>').appendTo('#events');
       lastDate = date;

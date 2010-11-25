@@ -33,17 +33,19 @@
   var redraw = function() {
     var lastType = null;
     $.each(recommendations, function(index, item) {
-      var author = authors[item.authorId];
-      var type = item.type;
-      if (type != lastType) {
-        $('<li data-role="list-divider" data-category="header">' + formatType(item.type) + '</li>').appendTo('#recommendations');
-      }
-      $('<li data-category="' + item.type + '">' +
-          '<h3><a href="recommendations-item.html?id=' + item.id + '"></a>' + item.title + '</h3>' +
-          '<p>' + item.description + '</p>' +
-          '<p>From ' + author.name + '</p>' +
-      '</li>').appendTo('#recommendations');
-      lastType = type;
+      authors.get(item.authorId, function(author) {
+        var type = item.type;
+        if (type != lastType) {
+          $('<li data-role="list-divider" data-category="header">' + formatType(item.type) + '</li>').appendTo('#recommendations');
+        }
+        $('<li data-category="' + item.type + '">' +
+            '<h3><a href="recommendations-item.html?id=' + item.id + '"></a>' + item.title + '</h3>' +
+            '<p>' + item.description + '</p>' +
+            '<p>From ' + author.name + '</p>' +
+        '</li>').appendTo('#recommendations');
+        lastType = type;
+      });
+
     });
     
     $('#recommendations').listview('refresh');
