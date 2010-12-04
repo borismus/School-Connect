@@ -4,7 +4,123 @@
  */
 
 
-/* Common elements in discussion and recommendation items */
+/* 
+DISCUSSION - fullscreen view 
+*/
+#pt-discuss-content{
+	padding:0;
+	width:100%;
+}
+
+.pt-discuss-comment {
+	padding: 0px 5px 0px 10px;
+}
+
+.divisor-container {
+	height:25px;
+	width:100%;
+	position:relative;
+	z-index:1;
+}
+
+.divisor {
+	height:25px;
+	width:72px;
+	background-image:url(../images/disc-divisor__.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	margin-left:10px;
+	position:relative;
+	z-index:2;
+	float:left;
+}
+
+.divisor-bg{
+	height:8px;
+	position:relative;
+	top:17px;
+	border-top: 1px solid #000;
+	background-color:#333;
+	-moz-box-shadow: inset 0 1px 0px #707070;
+	-webkit-box-shadow: inset 0 1px 0px #707070;
+	box-shadow: inset 0 1px 0px #707070;
+}
+
+#pt-discuss-listview {
+	margin:0px;
+	position:relative;
+	top:-1px;
+	z-index:0;
+}
+
+#pt-discuss-listview .ui-btn-inner{ /* overwriting specifically the style of the button inner for the pt-discuss-listview */
+	background-color:#333;
+	border-top:none;
+	border-bottom:1px solid #fff;
+	border-color:rgba(255,255,255,.3);
+	padding:8px 75px 8px 67px;
+	min-height:50px;
+}
+
+.pt-discuss-comment{
+	margin-top:-1px;
+	border-top:none;
+	background-color:#333;
+}
+
+.pt-discuss-title {
+	font-size:16px;
+	color:#333;
+	margin-bottom:5px;
+	text-shadow:0 -1px 1px #FFF;
+}
+
+.pt-discuss-post {
+	margin:10px;
+	font-size:12px;
+	color:#999;
+	text-shadow:0 -1px 1px #FFF;
+}
+
+
+
+
+/* 
+RECOMMENDATION - fullscreen view 
+*/
+#pt-rec-content {
+	padding:0;
+	width:100%;
+	background-color:#262626;
+	color:#FFF;
+	text-shadow:0 -1px 1px #000;
+}
+
+.pt-rec-details {
+	margin:10px;
+}
+
+h3 {
+	font-size:16px;
+}
+
+.pt-rec-description {
+	font-size:12px;
+	color:#CCC;
+}
+
+.pt-rec-disc {
+	font-size:12px;
+	color:#999;
+}
+
+.pt-rec-button-email {
+	background-color:#F00;
+}
+
+/* 
+DISCUSSION & RECOMMENDATION - fullscreen view - common elements 
+*/
 .pt-author-header {
 	width:100%;
 	height:65px;
@@ -15,7 +131,7 @@
 	text-shadow:0 -1px 1px #000;
 }
 .pt-authorpic{
-	padding:10px 0px 10px 10px;
+	margin:10px 0px 10px 10px;
 	float:left;
 	width: 45px;
 	height: 45px;
@@ -48,64 +164,10 @@
 }
 
 
-/* Discussion item */
-#pt-discuss-content{
-	padding:0;
-	width:100%;
-}
-
-#pt-discuss-listview {
-	margin:0px;
-	background-color:#F00;
-	
-}
-
-.pt-discuss-title {
-	font-size:16px;
-	color:#333;
-	margin-bottom:5px;
-	text-shadow:0 -1px 1px #FFF;
-}
-
-.pt-discuss-post {
-	margin:10px;
-	font-size:12px;
-	color:#999;
-	text-shadow:0 -1px 1px #FFF;
-}
-
-#divisor {
-	background-image:url(../images/disc-divisor.png);
-	background-repeat:no-repeat;
-	background-position:left;
-	margin-left: 10px;
-	height:15px;
-}
-
-/* Recommendation item */
-#pt-rec-content {
-	padding:0;
-	width:100%;
-	background-color:#262626;
-	color:#FFF;
-	text-shadow:0 -1px 1px #000;
-}
-
-.pt-rec-details {
-	margin:10px;
-}
-
-h3 {
-	font-size:16px;
-}
-
-.pt-rec-description {
-	font-size:12px;
-	color:#CCC;
-}
-
-.pt-rec-disc {
-	font-size:12px;
-	color:#999;
+/* 
+DISCUSSIONS - list page 
+*/
+#pt-disc-post {
+	background-color:#0F0;
 }
 

@@ -1,8 +1,12 @@
 // Wrapper around localStorage
-var StorageManager = function(url, comparator) {
-  var _array = [];
-  var _isLoaded = false;
-  var _cmp = comparator;
+var StorageManager = function(url, sorter) {
+  this._array = [];
+  this._isLoaded = false;
+  if (sorter == undefined) {
+    this._sorter = function(a) {return a;};
+  } else {
+    this._sorter = sorter;
+  }
   
   this.download(url);
 };
@@ -53,7 +57,7 @@ StorageManager.prototype.each = function(action) {
 StorageManager.prototype.download = function(url) {
   var that = this;
   $.getJSON(url, function(data) {
-    that._array = data.data;
+    that._array = that._sorter(data.data);
     that._isLoaded = true;
   });
 };
@@ -62,5 +66,5 @@ StorageManager.prototype.download = function(url) {
 StorageManager.prototype.add = function(object) {
   object.id = this._array.length;
   this._array.push(object);
-  this._array.sort(this._cmp);
+  this._array = this._sorter(this._array);
 };

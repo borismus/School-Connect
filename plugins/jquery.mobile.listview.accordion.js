@@ -34,7 +34,7 @@ $( "[data-role='listview']" ).live( "listviewcreate", function() {
   			if ($accordion.css('display') != 'none') {
   				$accordion.slideUp();
   				$(this).removeClass('ui-li-accordion-open');
-  				return;
+  				return true;
   			}
   			// Close all other accordion flaps
   			list.find('.ui-li-accordion').slideUp();

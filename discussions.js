@@ -19,8 +19,10 @@
   redrawDiscussions = redraw;
   
   // whenever this page is loaded, call init
-  // scriptCache.onPageLoad('item.html', refresh);
+  scriptCache.onPageLoad('discussions.html', redraw);
   // call init the first time it's loaded too
   // setTimeout(redraw, 500);
   redraw();
+  // hide badge
+   $('#pt-home .pt-badge-discussions').hide();
 })();

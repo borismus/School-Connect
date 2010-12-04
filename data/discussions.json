@@ -30,7 +30,7 @@
     "id": 1,
     "posted": "December 5, 2010 9:51:00",
     "title": "Oceans Quiz",
-    "body": "How did your child find the quiz? Paulo seemed OK with it.",
+    "body": "How did your child find the quiz? Paulo said it was hard.",
     "type": "event",
     "authorId": 6,
     "comments": [
@@ -41,7 +41,7 @@
       },
       {
         "authorId": 0,
-        "comment": "Oh no, we'll have a talk.",
+        "comment": "Ok, we'll have a talk.",
         "posted": "December 6, 2010 15:13:00"
       }
     ]
@@ -64,8 +64,8 @@
   {
     "id": 3,
     "posted": "December 3, 2010 10:30:00",
-    "title": "Indonesia hit by Tsunami",
-    "body": "Thousands die in disaster.",
+    "title": "Lisbon schools are No.1",
+    "body": "The Lisbon school system was recently voted the best in Portugal. Thanks to the teachers for makeing this possible.",
     "type": "misc",
     "authorId": 1,
     "comments": []
@@ -74,7 +74,7 @@
     "id": 4,
     "posted": "November 28, 2010 16:30:00",
     "title": "Tips for dealing with bullies",
-    "body": "Bullying is a big problem that affects lots of kids. Three-quarters of all kids say they have been bullied or teased. Being bullied can make kids feel really bad. The stress of dealing with bullies can make kids feel sick.",
+    "body": "Bullying is a big problem that affects lots of kids. Three-quarters of all kids say they have been bullied or teased. Try asking you child if anyone at school gets called mean names.",
     "type": "recommendation",
     "authorId": 2,
     "comments": []
@@ -82,19 +82,19 @@
   {
     "id": 5,
     "posted": "October 5, 2010 9:30:00",
-    "title": "Hannah Montana",
-    "body": "Follows the double life of a high school student who is also a pop singer.",
+    "title": "Class pet during the holiday",
+    "body": "Can anyone volunteer to look after Pedro, the class Guinea Pig during the November 1st holiday?",
     "type": "recommendation",
-    "authorId": 6,
+    "authorId": 0,
     "comments": []
   },
   {
     "id": 6,
     "posted": "November 20, 2010 9:30:00",
     "title": "Last day of school party",
-    "body": "I'm so excited to meet all of you.",
+    "body": "I'm so excited to see you all again! It is pot luck, please bring something to eat or drink.",
     "type": "event",
-    "authorId": 1,
+    "authorId": 0,
     "comments": [
       {
         "authorId": 3,
@@ -106,8 +106,8 @@
   {
     "id": 7,
     "posted": "November 22, 2010 9:30:00",
-    "title": "Science assignment due",
-    "body": "Jimbo won't be able to finish it on time. Is the teacher going to dock marks?",
+    "title": "Science assignment taking a long time.",
+    "body": "This weeks Science assignment is taking a long time. Can there be an extension until after the weekend?",
     "type": "event",
     "authorId": 5,
     "comments": []
@@ -131,7 +131,7 @@
     "id": 9,
     "posted": "November 22, 2010 9:30:00",
     "title": "Ocean Life - PBS Kids",
-    "body": "Great show!",
+    "body": "Great show! The whole family really enjoyed this.",
     "type": "recommendation",
     "authorId": 2,
     "comments": []

@@ -137,8 +137,8 @@
 	{
 	"type": "grade",
 	"posted": "Dec 5, 2010 10:00:00",
-	"title": "Treasure Island, Chapter 12",
-	"description": "Read Chapter 12 and get you parent or guardian to sign your reading book.",
+	"title": "Treasure Island, Ch 12",
+	"description": "Read Ch. 12 and get you parent or guardian to sign your reading book.",
 	"subject": "Reading",
 	"grade": "A-",
 	"average": "A-",
@@ -150,8 +150,8 @@
 	{
 	"type": "grade",
 	"posted": "Nov 28, 2010 10:00:00",
-	"title": "Treasure Island, Chapter 11",
-	"description": "Read Chapter 11 and get you parent or guardian to sign your reading book.",
+	"title": "Treasure Island, Ch. 11",
+	"description": "Read Ch. 11 and get you parent or guardian to sign your reading book.",
 	"subject": "Reading",
 	"grade": "B+",
 	"average": "A-",
@@ -163,8 +163,8 @@
 	{
 	"type": "grade",
 	"posted": "Nov 21, 2010 10:00:00",
-	"title": "Treasure Island, Chapter 10",
-	"description": "Read Chapter 10 and get you parent or guardian to sign your reading book.",
+	"title": "Treasure Island, Ch. 10",
+	"description": "Read Ch. 10 and get you parent or guardian to sign your reading book.",
 	"subject": "Reading",
 	"grade": "A",
 	"average": "A-",
@@ -189,8 +189,8 @@
 	{
 	"type": "grade",
 	"posted": "Nov 7, 2010 10:00:00",
-	"title": "Treasure Island, Chapter 9",
-	"description": "Read Chapter 9 and get you parent or guardian to sign your reading book.",
+	"title": "Treasure Island, Ch. 9",
+	"description": "Read Ch. 9 and get you parent or guardian to sign your reading book.",
 	"subject": "Reading",
 	"grade": "A-",
 	"average": "A-",
@@ -267,7 +267,7 @@
 	{
 	"type": "grade",
 	"posted": "Dec 4, 2010 10:00:00",
-	"title": "Civil Rights Speeches III",
+	"title": "Civil Rights Speeches III Test Test Test",
 	"description": "Watch the speech, I have a dream by Martin Luther King.",
 	"subject": "Sociology",
 	"grade": "A",
@@ -396,30 +396,35 @@
 
 	{
 	"type": "attendance",
+	"description": "Please call the school to authorize this absence",
 	"posted": "Dec 6, 2010 10:00:00",
 	"missed": "Dec 3, 2010 10:00:00"
 	},
 
 	{
 	"type": "attendance",
-	"posted": "Oct 25, 2010 10:00:00",
-	"missed": "Oct 24, 2010 10:00:00"
+	"description": "Please call the school to authorize this absence",
+	"posted": "Nov 10, 2010 10:00:00",
+	"missed": "Nov 9, 2010 10:00:00"
 	},
 
 	{
 	"type": "attendance",
+	"description": "Please call the school to authorize this absence",
 	"posted": "May 12, 2010 10:00:00",
 	"missed": "May 11, 2010 10:00:00"
 	},
 
 	{
 	"type": "attendance",
+	"description": "Please call the school to authorize this absence",
 	"posted": "Feb 14, 2010 10:00:00",
 	"missed": "Feb 13, 2010 10:00:00"
 	},
 
 	{
 	"type": "attendance",
+	"description": "Please call the school to authorize this absence",
 	"posted": "Jan 26, 2010 10:00:00",
 	"missed": "Jan 25, 2010 10:00:00"
 	},
@@ -435,7 +440,7 @@
 
 	{
 	"type": "behavior",
-	"posted": "Nov 15, 2010 10:00:00",
+	"posted": "Nov 21, 2010 10:00:00",
 	"title": "Got in a fight with Jim",
 	"description": "During lunch time Paulo and Jim got in a fight about the football match.",
 	"behavior_type": "False",
