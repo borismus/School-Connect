@@ -32,42 +32,41 @@
           discussionString = "In discussion with " + discussion.comments.length + ' comments';
         });
       }
-      $('<li data-category="' + item.type + '">' +
+      $('<li>' +
           '<h3><a href=""></a>' + item.title + '</h3>' +
-          '<p>' + '⁤' + discussionString + '</p>' +
+          '<p>' + discussionString + '</p>' +
           
           
-          '<div class="ui-li-accordion">' + 
+          '<div class="ui-li-accordion"  data-role="none" >' + 
             '<div class="pt-event-desc">' + item.description + '</div>'+
             '<div class="pt-event-when">When: ' + date.getHours() + ':' + (date.getMinutes() < 10 ? '0' : '') + date.getMinutes() + '</div>'+
             '<div class="pt-event-where">Where: ' + item.where + '</div>' +
              
-             /*
-                	'<div class="pt-nav">' + // Style of bottom banner
-						
-						'<button class="pt-button-4view pt-calendar">' +
-						'<img src="images/icon-sync.png" />'   +
-						'Cal Sync' +
-						'</button>' +						
-						
-						'<button class="pt-button-4view pt-email">' + 
-						'<img src="images/icon-email.png"/>' +
-						'Email' +	
-						'</button>' +
-						
-						'<button class="pt-button-4view pt-sms">' +
-						'<img src="images/icon-sms.png" />'   +
-						'SMS' +
-						'</button>' +						
-						
-						'<button class="pt-button-4view pt-discuss">' + 
-						'<img src="images/icon-discuss.png"/>' +
-						'Discuss' +	
-						'</button>' +	
+            '<div class="pt-nav">' + // Style of bottom banner
+            
+            '<button class="pt-button-4view pt-calendar">' +
+            '<img src="images/icon-sync.png" />'   +
+            '<div class="label">Cal Sync</div>' +
+            '</button>' +           
+            
+            '<button class="pt-button-4view pt-email">' + 
+            '<img src="images/icon-email.png"/>' +
+            '<div class="label">Email</div>' +
+            '</button>' +
+            
+            '<button class="pt-button-4view pt-sms">' +
+            '<img src="images/icon-sms.png" />'   +
+            '<div class="label">SMS</div>' +
+            '</button>' +           
+            
+            '<button class="pt-button-4view pt-discuss">' + 
+            '<img src="images/icon-discuss.png"/>' +
+            '<div class="label">Discuss</div>' +
+            '</button>' + 
           
-         	      	'</div>' +
-         	   
-  	*/
+                  '</div>' +
+             
+    
          	      	
           '</div>' +
           
@@ -79,11 +78,14 @@
     });
     
     $('#events').listview('refresh');
+    // Hack: remove all thumb classes
+    $('.ui-page-active .ui-li-has-thumb').removeClass('ui-li-has-thumb');
     
     // Link events
     $('#events .pt-calendar').click(function() {
       var li = $(this).closest('li');
-      Android.addCalendar(li.data('item').title);
+      var item = li.data('item');
+      Android.addCalendar(item.title, item.description, new Date(item.when).getTime(), null, item.where);
       return false;
     });
     $('#events .pt-email').click(function() {
@@ -93,7 +95,7 @@
     });
     $('#events .pt-sms').click(function() {
       var li = $(this).closest('li');
-      Android.sendSMS(li.data('item').title);
+      Android.sendSMS(li.data('item').title + ': ' + li.data('item').description);
       return false;
     });
     $('#events .pt-discuss').click(function() {
@@ -114,5 +116,5 @@
   // call init the first time it's loaded too
   init();
   // hide badge
-   $('#pt-home .pt-badge-events').hide();
+   $('#pt-home .pt-badge-events').css("visibility", "hidden");
 })();

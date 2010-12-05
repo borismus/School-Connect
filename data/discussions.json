@@ -5,7 +5,7 @@
     "id": 0,
     "posted": "December 8, 2010 11:13:00",
     "title": "Jim's 10th Birthday",
-    "body": "Come to our place at 3939 Farley Rd on Saturday.",
+    "body": "Come to our place at Rua Damiao de Gois on Saturday.",
     "type": "event",
     "authorId": 3,
     "comments": [
@@ -150,6 +150,156 @@
         "posted": "December 4, 2010 5:13:00"
       }
     ]
+  },
+  {
+    "id": 11,
+    "posted": "December 3, 2010 19:30:00",
+    "title": "Food Chains Final Project due",
+    "body": "Can we explain the chain focusing in a specific animal?",
+    "type": "event",
+    "authorId": 4,
+    "comments": [
+      {
+        "authorId": 1,
+        "comment": "No, no. Do just an overview for all animals.",
+        "posted": "December 4, 2010 5:13:00"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "posted": "December 3, 2010 19:30:00",
+    "title": "Football game against Alges.",
+    "body": "I will probably be out this day. Can't go :(",
+    "type": "event",
+    "authorId": 2,
+    "comments": []
+  },
+  {
+    "id": 14,
+    "posted": "December 3, 2010 19:30:00",
+    "title": "Color Matters - PBS Kids",
+    "body": "Loved the show. Thank you Elisa!",
+    "type": "recommendation",
+    "authorId": 4,
+    "comments": [
+    {
+        "authorId": 0,
+        "comment": "You welcome!",
+        "posted": "December 4, 2010 5:13:00"
+     }
+    ]
+  },{
+    "id": 15,
+    "posted": "December 3, 2010 19:30:00",
+    "title": "Lisbon Botanical Garden",
+    "body": "I'm totally going this week!",
+    "type": "recommendation",
+    "authorId": 3,
+    "comments": [
+    {
+        "authorId": 2,
+        "comment": "Sweet! I'm joining too!",
+        "posted": "December 4, 2010 5:13:00"
+     },
+     {
+        "authorId": 4,
+        "comment": "What time are we meeting there?",
+        "posted": "December 4, 2010 5:13:00"
+     },
+     {
+        "authorId": 1,
+        "comment": "Maybe around 3pm? near that piano coffe :)",
+        "posted": "December 4, 2010 5:13:00"
+     }
+    ]
+  },{
+    "id": 16,
+    "posted": "December 3, 2010 19:30:00",
+    "title": "Groovy Geometry: Games and Activities That Make Math Easy and Fun",
+    "body": "My kid is so interested after reading this one! thanks!",
+    "type": "recommendation",
+    "authorId": 4,
+    "comments": []
+  },
+  {
+    "id": 17,
+    "posted": "December 3, 2010 19:30:00",
+    "title": "Harry Potter",
+    "body": "My kid is completely addicted to Harry Potter! maybe we should bring some kids together and make a movie night?",
+    "type": "recommendation",
+    "authorId": 5,
+    "comments": [
+    {
+        "authorId": 4,
+        "comment": "Sounds good!",
+        "posted": "December 4, 2010 5:13:00"
+     },
+     {
+        "authorId": 1,
+        "comment": "I am available in the weekend.",
+        "posted": "December 4, 2010 5:13:00"
+     }
+    ]
+  },
+  {
+    "id": 18,
+    "posted": "December 3, 2010 19:30:00",
+    "title": "Cooking Pasta",
+    "body": ". Does anyone knows how much time pasta needs to be cooked? Trying to make a special day for my kids",
+    "type": "misc",
+    "authorId": 2,
+    "comments": [
+    {
+        "authorId": 4,
+        "comment": "Well it depends how you like your pasta? I really like mine almost raw",
+        "posted": "December 4, 2010 5:13:00"
+     },
+     {
+        "authorId": 2,
+        "comment": "ewwww! I prefer to eat it after 20 min. of cooking",
+        "posted": "December 4, 2010 5:13:00"
+     },
+     {
+        "authorId": 1,
+        "comment": "I don't really control the time. I just wait until is soft",
+        "posted": "December 4, 2010 5:13:00"
+     }
+    ]
+  },{
+    "id": 19,
+    "posted": "December 3, 2010 19:30:00",
+    "title": "Music class at school",
+    "body": "Next semester we need to buy a flute. Any1 knows where to buy a good/cheap flute?",
+    "type": "event",
+    "authorId": 6,
+    "comments": [
+    {
+        "authorId": 1,
+        "comment": "hum..don't know yet. good question",
+        "posted": "December 4, 2010 5:13:00"
+     },
+      {
+        "authorId": 0,
+        "comment": "In columbus shopping center there is a cheap music store. you can buy it there",
+        "posted": "December 4, 2010 5:13:00"
+     }
+    ]
+  },
+  {
+    "id": 20,
+    "posted": "December 3, 2010 19:30:00",
+    "title": "Son's grades",
+    "body": "Hey Elisa, I have some doubts about the grading system, can we meet friday?",
+    "type": "misc",
+    "authorId": 6,
+    "comments": [
+    {
+        "authorId": 0,
+        "comment": "Hm..Give me a call tomorrow. I will be free in the school from 4 to 6pm.",
+        "posted": "December 4, 2010 5:13:00"
+     }  
+   ]
   }
   ]
 }

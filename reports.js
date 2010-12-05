@@ -17,9 +17,9 @@
   };
   
   var redraw = function() {
-    var ACCORDION_FOOTER = '<div class="pt-nav">' +
-      '<button class="pt-button pt-email"><img src="images/icon-email.png" />Email</button>' +
-      '<button class="pt-button pt-sms"><img src="images/icon-sms.png"/>SMS</button>' +
+    var ACCORDION_FOOTER = '<div class="pt-nav" data-role="none">' +
+      '<button class="pt-button pt-email"><img src="images/icon-email.png" /><div class="label">Email</div></button>' +
+      '<button class="pt-button pt-sms"><img src="images/icon-sms.png"/><div class="label">SMS</div></button>' +
     '</div>';
     $.each(reports, function(index, item) {
       switch(item.type) {
@@ -76,7 +76,7 @@
     // Connect SMS and email buttons
     $('#reports .pt-sms').click(function() {
       var li = $(this).closest('li');
-      Android.sendSMS(li.data('item').title);
+      Android.sendSMS(li.data('item').title + ': ' + li.data('item').description);
       return false;
     });
     $('#reports .pt-email').click(function() {
@@ -91,5 +91,5 @@
   // call init the first time it's loaded too
   init();
   // hide badge
-   $('#pt-home .pt-badge-reports').hide();
+   $('#pt-home .pt-badge-reports').css("visibility", "hidden");
 })();

@@ -78,17 +78,20 @@ Android.sendSMS = function(message) {
   }, function() {}, function() {alert('Failed to send SMS via Android Intent');});
 };
 
-Android.addCalendar = function(title) {
+Android.addCalendar = function(title, description, beginTime, endTime, location) {
   if (!window.plugins || !window.plugins.webintent) {
     alert('Unable to find webintent plugin');
     return false;
   }
   var extras = {};
-  extras[WebIntent.EXTRA_SUBJECT] = 'body';
-  extras[WebIntent.EXTRA_TEXT] = 'body';
+  extras['title'] = title;
+  extras['description'] = description;
+  extras['beginTime'] = beginTime;
+  extras['endTime'] = endTime;
+  extras['location'] = location;
   window.plugins.webintent.startActivity({
-    action: WebIntent.ACTION_SEND,
-    type: 'text/plain',
+    action: WebIntent.ACTION_EDIT,
+    type: 'vnd.android.cursor.item/event',
     extras: extras
   }, function() {}, function() {alert('Failed to add to calendar via Android Intent');});
 };

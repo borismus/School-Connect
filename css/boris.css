@@ -8,6 +8,6 @@
 .pt-home-right {float: right;}
 .pt-home-row {clear: both;}
 
+#pt-discuss-content * {white-space: normal;}
 
-
-.pt-discuss-comment-header {display: none;}
+/*#pt-discussion-new-post .ui-icon {background: url(../images/icon-discuss-white.png);}*/

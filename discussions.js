@@ -24,5 +24,5 @@
   // setTimeout(redraw, 500);
   redraw();
   // hide badge
-   $('#pt-home .pt-badge-discussions').hide();
+   $('#pt-home .pt-badge-discussions').css("visibility", "hidden");
 })();

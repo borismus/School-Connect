@@ -33,18 +33,22 @@
 	  return false;
 	});
 	$('.pt-rec-button-map').click(function() {
-	  Android.showMap(rec.address);
+	  if (rec.address) {
+  	  Android.showMap(rec.address);
+	  } else {
+	    alert('No map found for this recommendation.');
+	  }
 	  return false;
 	});
 	$('.pt-rec-button-sms').click(function() {
-	  Android.sendSMS(rec.title + rec.description);
+	  Android.sendSMS(rec.title + ': ' + rec.description);
 	  return false;
 	});
 	$('.pt-rec-button-discuss').click(function() {
 	  if (rec.discussionId != '-1') {
 	    changePage('discussions-item.html?id=' + rec.discussionId);
 	  } else {
-	    changePage('recommendations-post.html?title=' + rec.title + '&description=' + rec.description);
+	    changePage('discussions-post.html?title=' + rec.title + '&description=' + rec.description);
 	  }
 	  return false;
 	});

@@ -78,7 +78,7 @@ var reset = function() {
   }, 50);
 };
 
-scriptCache.onPageLoad('discussions-post.html', reset);
 init();
+scriptCache.onPageLoad('discussions-post.html', reset);
 
 })();

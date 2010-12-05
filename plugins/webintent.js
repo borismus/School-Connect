@@ -7,7 +7,9 @@ var WebIntent = function() {
 
 };
 
+WebIntent.ACTION_EDIT = "android.intent.action.EDIT";
 WebIntent.ACTION_SEND = "android.intent.action.SEND";
+WebIntent.ACTION_VIEW= "android.intent.action.VIEW";
 WebIntent.EXTRA_TEXT = "android.intent.extra.TEXT";
 WebIntent.EXTRA_SUBJECT = "android.intent.extra.SUBJECT";
 
@@ -37,5 +39,5 @@ WebIntent.prototype.getExtra = function(params, success, fail) {
 
 PhoneGap.addConstructor(function() {
 	PhoneGap.addPlugin('webintent', new WebIntent());
-	PluginManager.addService("WebIntent","com.borismus.webintent.WebIntent");
+	PluginManager.addService("WebIntent","com.ptin.kindroid.WebIntent");
 });

@@ -26,7 +26,7 @@
               $('<li>' +
                   '<img class="pt-authorpic" src="' + author.image + '" />' +
                   '<h3><a href="">' + author.name + '</a></h3>' +
-                  '<p>' + comment.comment + ' Posted ' + comment.posted + '</p>' +
+                  '<p>' + comment.comment + ' <br/>Posted ' + comment.posted + '</p>' +
                 '</li>').appendTo('.ui-page-active #pt-discuss-listview');
               $p.find('.pt-discuss-comment-header').show();
             });

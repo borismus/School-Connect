@@ -31,5 +31,5 @@
   redraw();
   
   // hide badge
-   $('#pt-home .pt-badge-recommendations').hide();
+   $('#pt-home .pt-badge-recommendations').css("visibility", "hidden");
 })();
