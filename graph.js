@@ -54,19 +54,19 @@
       	case "spring": 
       	springCount = springCount +1;	
       	springKidAvg = springKidAvg+ parseGrade(item.grade); 
-      	springClassAvg = springClassAvg + parseGrade(item.grade);
+      	springClassAvg = springClassAvg + parseGrade(item.average);
       	break;
       	
       	case "summer":
       	summerCount = summerCount +1; 	
       	summerKidAvg = summerKidAvg+ parseGrade(item.grade); 
-      	summerClassAvg = summerClassAvg + parseGrade(item.grade);
+      	summerClassAvg = summerClassAvg + parseGrade(item.average);
       	break;
       	
       	case "fall":
       	fallCount = fallCount +1;
       	fallKidAvg = fallKidAvg+ parseGrade(item.grade); 
-      	fallClassAvg = fallClassAvg + parseGrade(item.grade);
+      	fallClassAvg = fallClassAvg + parseGrade(item.average);
       	break;
       	
       	default:

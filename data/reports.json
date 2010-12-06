@@ -9,7 +9,7 @@
 	"title": "The Sunflowers",
 	"description": " Find a picture of Sunflowers on the internet and draw it. Use pencil.",
 	"subject": "Art",
-	"grade": "B+",
+	"grade": "A-",
 	"average": "B",
 	"authorId": "0",
 	"year":"1st",
@@ -22,7 +22,7 @@
 	"title": "Your Room",
 	"description": "Draw a picture of your room at home. Use pencil.",
 	"subject": "Art",
-	"grade": "B-",
+	"grade": "A-",
 	"average": "B",
 	"authorId": "0",
 	"year":"1st",
@@ -35,11 +35,11 @@
 	"title": "Self Portrait",
 	"description": "Draw a picture of yourself from a photograph. Use pencil",
 	"subject": "Art",
-	"grade": "B",
+	"grade": "A-",
 	"average": "B",
 	"authorId": "0",
 	"year":"4th",
-	"season": "fall"
+	"season": "summer"
 	},
 
 	{
@@ -48,7 +48,7 @@
 	"title": "Pastels II",
 	"description": "Write 1 page about the difference between using pastels and pencil.",
 	"subject": "Art",
-	"grade": "B",
+	"grade": "A",
 	"average": "B",
 	"authorId": "0",
 	"year":"4th",
@@ -61,7 +61,7 @@
 	"title": "Pastels",
 	"description": "Go to the art store and buy some pastels, at least 3 colors.",
 	"subject": "Art",
-	"grade": "A-",
+	"grade": "A",
 	"average": "B",
 	"authorId": "0",
 	"year":"2nd",
@@ -74,8 +74,8 @@
 	"title": "Exercise 2.14",
 	"description": "From Everyday Mathematics, p 134 - 135.",
 	"subject": "Math",
-	"grade": "A-",
-	"average": "A",
+	"grade": "A+",
+	"average": "A-",
 	"authorId": "0",
 	"year":"4th",
 	"season": "summer"
@@ -88,7 +88,7 @@
 	"description": "From Everyday Mathematics, p 130 - 132.",
 	"subject": "Math",
 	"grade": "A+",
-	"average": "A",
+	"average": "A-",
 	"authorId": "0",
 	"year":"1st",
 	"season": "spring"
@@ -101,7 +101,7 @@
 	"description": "From Everyday Mathematics, p 124 - 127.",
 	"subject": "Math",
 	"grade": "A",
-	"average": "A",
+	"average": "A-",
 	"authorId": "0",
 	"year":"3rd",
 	"season": "summer"
@@ -113,8 +113,8 @@
 	"title": "Exercise 2.10",
 	"description": "From Everyday Mathematics, p 120 - 123.",
 	"subject": "Math",
-	"grade": "B+",
-	"average": "A",
+	"grade": "A",
+	"average": "A-",
 	"authorId": "0",
 	"year":"1st",
 	"season": "fall"
@@ -127,7 +127,7 @@
 	"description": "Find an article in a newspaper about tax. Print it out and bring it to school.",
 	"subject": "Math",
 	"grade": "A+",
-	"average": "A",
+	"average": "A-",
 	"authorId": "0",
 	"year":"4th",
 	"season": "summer"
@@ -140,7 +140,7 @@
 	"title": "Treasure Island, Ch 12",
 	"description": "Read Ch. 12 and get you parent or guardian to sign your reading book.",
 	"subject": "Reading",
-	"grade": "A-",
+	"grade": "A",
 	"average": "A-",
 	"authorId": "0",
 	"year":"4th",
@@ -153,7 +153,7 @@
 	"title": "Treasure Island, Ch. 11",
 	"description": "Read Ch. 11 and get you parent or guardian to sign your reading book.",
 	"subject": "Reading",
-	"grade": "B+",
+	"grade": "A",
 	"average": "A-",
 	"authorId": "0",
 	"year":"3rd",
@@ -335,11 +335,11 @@
 	"title": "Weekend Report",
 	"description": "Write about what you did at the weekend, in the style of a news report.",
 	"subject": "Writing",
-	"grade": "C+",
+	"grade": "A",
 	"average": "B",
 	"authorId": "0",
 	"year":"4th",
-	"season": "fall"
+	"season": "spring"
 	},
 
 	{
@@ -352,7 +352,7 @@
 	"average": "B",
 	"authorId": "0",
 	"year":"3rd",
-	"season": "fall"
+	"season": "spring"
 	},
 
 	{
@@ -361,7 +361,7 @@
 	"title": "My favorite toy",
 	"description": "Write one page about your favorite toy. Why do you like it so much?",
 	"subject": "Writing",
-	"grade": "B",
+	"grade": "A+",
 	"average": "B",
 	"authorId": "0",
 	"year":"1st",

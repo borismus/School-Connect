@@ -105,7 +105,11 @@
       if (discussionId != '-1') {
         changePage('discussions-item.html?id=' + discussionId);
       } else {
-        changePage('discussions-post.html?title=' + item.title + '&description=' + item.description);
+        discussions.params = {
+          title: item.title,
+          description: item.description
+        };
+        changePage('discussions-post.html');
       }
       return false;
     });

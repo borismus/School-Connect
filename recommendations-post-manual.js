@@ -23,7 +23,7 @@ var init = function() {
 
   //autocomplete handler
   function findValueCallback(event, data, formatted) {
-	$("#invitewrapper").append('<div data-role="fieldcontain"><div class="pt-post-added-blocks">'+'<img class=pt-authorpic src="images/author/gabriela.png"></img>'+'<div class="pt-ac-formatted">'+formatted+'<div class="pt-post-closeicon"><div><div><div><div>');
+	$(".ui-page-active .pt-invitees").append('<div data-role="fieldcontain"><div class="pt-post-added-blocks">'+'<img class=pt-authorpic src="images/author/gabriela.png"></img>'+'<div class="pt-ac-formatted">'+formatted+'<div class="pt-post-closeicon"><div><div><div><div>');
 	$('.ui-page-active .pt-post-autocomplete').val("");
 	} 
 	

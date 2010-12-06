@@ -48,7 +48,11 @@
 	  if (rec.discussionId != '-1') {
 	    changePage('discussions-item.html?id=' + rec.discussionId);
 	  } else {
-	    changePage('discussions-post.html?title=' + rec.title + '&description=' + rec.description);
+	    discussions.params = {
+        title: rec.title,
+        description: rec.description
+      };
+	    changePage('discussions-post.html');
 	  }
 	  return false;
 	});

@@ -1,8 +1,6 @@
 (function() {
 
 var init = function() {
-  reset();
-  
   // activate the checkbox
   $('.ui-page-active .pt-post-checkbox').click(function() {
     $('.ui-page-active .pt-post-autocomplete').toggle();
@@ -57,6 +55,7 @@ var init = function() {
     return false;
   });
 
+  reset();
 };
 
 var reset = function() {
@@ -68,17 +67,18 @@ var reset = function() {
   $('.ui-page-active .ui-btn-active').removeClass('ui-btn-active');
   // hide autocomp field
   $('.ui-page-active .pt-post-autocomplete').hide();
-
-  setTimeout(function() {
-    var title = getParameterByName('title');
-    var description = getParameterByName('description');
-
-    $('.ui-page-active .pt-post-title').val(title);
-    $('.ui-page-active .pt-post-textfield').val(description);
-  }, 50);
+  
+  if (discussions.params) {
+    $('.ui-page-active .pt-post-title').val(discussions.params.title);
+    $('.ui-page-active .pt-post-textfield').val(discussions.params.description);
+    
+    delete discussions.params;
+  } else {
+    $('.ui-page-active .pt-post-title').val('');
+    $('.ui-page-active .pt-post-textfield').val('');
+  }
 };
 
-init();
 scriptCache.onPageLoad('discussions-post.html', reset);
-
+init();
 })();

@@ -70,7 +70,7 @@
       }
     });
     
-    $('<li data-category="grade" data-theme="e"><a href="graph.html">Grade History</a></li>').appendTo('#reports');
+    $('<li style="text-align: center;" data-category="grade" data-theme="e"><a href="graph.html">Grade History</a></li>').appendTo('#reports');
     $('#reports').listview('refresh');
     
     // Connect SMS and email buttons
