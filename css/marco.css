@@ -144,7 +144,13 @@ background-color: gray;
 ----------------------------------*/
 .pti-graph-img{
 	margin-left:18px;
+	
 }
+
+.pt-navbar a:hover{
+//code here
+}
+
 
 
 /* home header

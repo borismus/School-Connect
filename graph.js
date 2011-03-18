@@ -17,15 +17,16 @@
   	
   	//picker variables
   	var pickerValue= $('#pt-graph-subjectpicker').val();
-  	var buttonValue="4th";
+  	var buttonValue="All";
   	
   	//listeners for year and subject
-  	$('#pt-graph-subjectpicker').change( function() {    
+  	$('#pt-graph-subjectpicker').change( function() { 
 		pickerValue = $(this).val();
 		init(); //always redraw graph when changed
 	});
 	
-	$('#pt-graph-yearpicker a').click( function() {    
+	$('#pt-graph-yearpicker a').click( function() { 
+		$(this).addClass("ui-btn-active");   
 		buttonValue = $(this).text();
 		init(); //always redraw graph when clicked
 	});
@@ -115,7 +116,7 @@
    "&chxr=0,0,4|1,1,3"+
    "&chxt=y,x"+
    "&chbh=a"+
-   "&chs=333x250"+
+   "&chs=250x225"+
    "&cht=bvg"+
    "&chco=A2C180,3D7930"+
    "&chds=0,4,0,4"+
